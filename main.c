@@ -1,3 +1,22 @@
+/*
+	CRC32-quinefinder, a CRC32 Fixed-point brute forcer (single-threaded)
+	Copyright (C) 2026  Nelyon
+	
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, see
+	<https://www.gnu.org/licenses/>.
+*/
+
 #include <zlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -27,8 +46,9 @@ int main(void) {
 	unsigned long long nsecEnd;
 
 	// Prose prose prose...
-	printf("CRC32 Fixed-point brute forcer (single-threaded)\n");
-	printf("This program is free software, licensed under the GPL v2.\n");
+	printf("CRC32-quinefinder, a CRC32 Fixed-point brute forcer (single-threaded)\n");
+	printf("Copyright (C) 2026 Nelyon")
+	printf("This program is free software, licensed under the GPL v2, and is provided with ABSOLUTELY NO WARRANTY OF ANY KIND.\n");
 	printf("You can get a copy of the GPL v2 at: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n");
 	printf("\n\n");
 	printf("START timestamp is at  : %llu\n", nsecStart);
