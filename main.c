@@ -50,7 +50,7 @@ int main(void) {
 	printf("Copyright (C) 2026 Nelyon");
 	printf("This program is free software, licensed under the GPL v2, and is provided with ABSOLUTELY NO WARRANTY OF ANY KIND.\n");
 	printf("You can get a copy of the GPL v2 at: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n");
-	printf("\n\n");
+	printf("\n");
 	printf("START timestamp is at  : %llu\n", nsecStart);
 
 	// Run the loop
