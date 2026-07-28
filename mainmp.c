@@ -1,5 +1,5 @@
 /*
-	CRC32-quinefinder, a CRC32 Fixed-point brute forcer (single-threaded)
+	CRC32-quinefinder, a CRC32 Fixed-point brute forcer (multi-threaded)
 	Copyright (C) 2026  Nelyon
 	
 	This program is free software; you can redistribute it and/or
