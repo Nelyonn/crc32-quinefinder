@@ -94,6 +94,7 @@ int main(void) {
 	printf("This program is free software, licensed under the GPL v2 (or later), and is provided with ABSOLUTELY NO WARRANTY OF ANY KIND.\n");
 	printf("You can get a copy of the GPL v2 at: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n");
 	printf("\n");
+	printf("Note: each timestamp here is monotonically increasing since system startup!\n");
 	printf("START timestamp is at  : %llu\n", nsecStart);
 
 	// Run the loop
